@@ -1,0 +1,20 @@
+<h1>Sala de chat LaboIV-4A</h1>
+<label>Ingrese nombre de usuario:</label>
+<input type="text" [(ngModel)]="usuario" name="usuario">
+<label>Ingrese su mensaje</label>
+<input type="text" [(ngModel)]="mensaje" name="mensaje">
+<button (click)="enviarMensaje()" >Enviar</button>
+<br><br>
+<div class="contenedor">
+    <div *ngFor="let mensaje of mensajes">
+        <div class="mensaje">
+            {{mensaje.usuario}}: {{mensaje.mensaje}}
+        </div>
+        <br>
+    </div>
+</div>
+<br>
+
+
+
+

@@ -1,0 +1,10 @@
+.contenedor{
+    background-color: #3498db;
+    width: 500px;
+    height: 500px;
+}
+
+.mensaje{
+    background-color: #e74c3c;
+    color: white;
+}

@@ -117,8 +117,13 @@
               "devServerTarget": "clase8:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "clase8"
 }
